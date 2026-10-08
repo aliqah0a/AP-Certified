@@ -1,0 +1,7 @@
+{
+  "positions": 48,
+  "scans_per_position": 180.0,
+  "median_std_dB": 2.543332576751709,
+  "p90_std_dB": 5.2877092361450195,
+  "median_5_95_range_dB": 8.0
+}
