@@ -1,0 +1,22 @@
+task,model,k,success,certified
+sod_cetc_floor,AP-Certified (hybrid),0,0.0,0.0
+sod_cetc_floor,AP-Certified (hybrid),1,0.0,0.0
+sod_cetc_floor,AP-Certified (hybrid),2,0.0,0.0
+sod_cetc_floor,AP-Certified (hybrid),3,0.0,0.0
+sod_cetc_floor,AP-Certified (hybrid),4,0.0,0.0
+sod_cetc_floor,AP-Certified (hybrid),5,0.0,0.0
+sod_cetc_floor,AP-Certified (hybrid),6,0.0,0.0
+sod_cetc_floor,LightGBM,0,0.01,
+sod_cetc_floor,LightGBM,1,0.64,
+sod_cetc_floor,LightGBM,2,0.98,
+sod_cetc_floor,LightGBM,3,1.0,
+sod_cetc_floor,LightGBM,4,1.0,
+sod_cetc_floor,LightGBM,5,1.0,
+sod_cetc_floor,LightGBM,6,1.0,
+sod_cetc_floor,MLP,0,0.0,
+sod_cetc_floor,MLP,1,0.01,
+sod_cetc_floor,MLP,2,0.08,
+sod_cetc_floor,MLP,3,0.24,
+sod_cetc_floor,MLP,4,0.3,
+sod_cetc_floor,MLP,5,0.34,
+sod_cetc_floor,MLP,6,0.47,

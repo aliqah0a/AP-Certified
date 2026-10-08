@@ -1,0 +1,444 @@
+{
+ "sod_cetc_floor_m1": {
+  "FRR": 0.034761904761904716,
+  "FAR": 0.0,
+  "EER": 0.0,
+  "kstar": 8.0,
+  "kmin": 8,
+  "kmax": 8,
+  "MLP_EER": 0.0,
+  "LGB_EER": 0.02142857142857138,
+  "attack_k3": {
+   "AP": "0",
+   "LightGBM": "100",
+   "MLP": "24"
+  },
+  "other": {
+   "FRR": {
+    "AP-Certified (hybrid)": 0.0348,
+    "AP-Certified (one-sided)": 0.0405,
+    "AP-Certified (symmetric)": 0.031,
+    "LightGBM": 0.0429,
+    "MLP": 0.0471,
+    "kNN": 0.041
+   },
+   "FAR": {
+    "AP-Certified (hybrid)": 0.0,
+    "AP-Certified (one-sided)": 0.0,
+    "AP-Certified (symmetric)": 0.0,
+    "LightGBM": 0.0138,
+    "MLP": 0.0,
+    "kNN": 0.0
+   },
+   "EER": {
+    "AP-Certified (hybrid)": 0.0,
+    "AP-Certified (one-sided)": 0.0,
+    "AP-Certified (symmetric)": 0.0,
+    "LightGBM": 0.0214,
+    "MLP": 0.0,
+    "kNN": 0.0
+   },
+   "kstar": {
+    "AP-Certified (hybrid)": 8.0,
+    "AP-Certified (one-sided)": 6.8,
+    "AP-Certified (symmetric)": 8.0,
+    "LightGBM": NaN,
+    "MLP": NaN,
+    "kNN": NaN
+   }
+  }
+ },
+ "sod_syl_region_m1": {
+  "FRR": 0.04039215686274506,
+  "FAR": 0.02143790849673198,
+  "EER": 0.02581699346405224,
+  "kstar": -1.0,
+  "kmin": -1,
+  "kmax": -1,
+  "MLP_EER": 0.0398692810457516,
+  "LGB_EER": 0.04640522875816988,
+  "attack_k3": {
+   "AP": "5",
+   "LightGBM": "99",
+   "MLP": "12"
+  },
+  "other": {
+   "FRR": {
+    "AP-Certified (hybrid)": 0.0404,
+    "AP-Certified (one-sided)": 0.0494,
+    "AP-Certified (symmetric)": 0.04,
+    "LightGBM": 0.0478,
+    "MLP": 0.0576,
+    "kNN": 0.0627
+   },
+   "FAR": {
+    "AP-Certified (hybrid)": 0.0214,
+    "AP-Certified (one-sided)": 0.021,
+    "AP-Certified (symmetric)": 0.0218,
+    "LightGBM": 0.0429,
+    "MLP": 0.0292,
+    "kNN": 0.3999
+   },
+   "EER": {
+    "AP-Certified (hybrid)": 0.0258,
+    "AP-Certified (one-sided)": 0.0227,
+    "AP-Certified (symmetric)": 0.0258,
+    "LightGBM": 0.0464,
+    "MLP": 0.0399,
+    "kNN": 0.075
+   },
+   "kstar": {
+    "AP-Certified (hybrid)": -1.0,
+    "AP-Certified (one-sided)": -1.0,
+    "AP-Certified (symmetric)": -1.0,
+    "LightGBM": NaN,
+    "MLP": NaN,
+    "kNN": NaN
+   }
+  }
+ },
+ "sod_syl_region_m3": {
+  "FRR": 0.0522875816993464,
+  "FAR": 0.04488017429193896,
+  "EER": 0.04444444444444442,
+  "kstar": -1.0,
+  "kmin": -1,
+  "kmax": -1,
+  "MLP_EER": NaN,
+  "LGB_EER": NaN,
+  "attack_k3": {
+   "AP": "--",
+   "LightGBM": "--",
+   "MLP": "--"
+  },
+  "other": {
+   "FRR": {
+    "AP-Certified (hybrid)": 0.0523,
+    "AP-Certified (one-sided)": 0.0536,
+    "AP-Certified (symmetric)": 0.0641
+   },
+   "FAR": {
+    "AP-Certified (hybrid)": 0.0449,
+    "AP-Certified (one-sided)": 0.0444,
+    "AP-Certified (symmetric)": 0.054
+   },
+   "EER": {
+    "AP-Certified (hybrid)": 0.0444,
+    "AP-Certified (one-sided)": 0.0444,
+    "AP-Certified (symmetric)": 0.0473
+   },
+   "kstar": {
+    "AP-Certified (hybrid)": -1.0,
+    "AP-Certified (one-sided)": -1.0,
+    "AP-Certified (symmetric)": -1.0
+   }
+  }
+ },
+ "sod_syl_region_m5": {
+  "FRR": 0.05882352941176468,
+  "FAR": 0.03921568627450978,
+  "EER": 0.03627450980392152,
+  "kstar": -1.0,
+  "kmin": -1,
+  "kmax": -1,
+  "MLP_EER": NaN,
+  "LGB_EER": NaN,
+  "attack_k3": {
+   "AP": "--",
+   "LightGBM": "--",
+   "MLP": "--"
+  },
+  "other": {
+   "FRR": {
+    "AP-Certified (hybrid)": 0.0588,
+    "AP-Certified (one-sided)": 0.0549,
+    "AP-Certified (symmetric)": 0.0569
+   },
+   "FAR": {
+    "AP-Certified (hybrid)": 0.0392,
+    "AP-Certified (one-sided)": 0.0327,
+    "AP-Certified (symmetric)": 0.0386
+   },
+   "EER": {
+    "AP-Certified (hybrid)": 0.0363,
+    "AP-Certified (one-sided)": 0.035,
+    "AP-Certified (symmetric)": 0.0363
+   },
+   "kstar": {
+    "AP-Certified (hybrid)": -1.0,
+    "AP-Certified (one-sided)": -1.0,
+    "AP-Certified (symmetric)": -1.0
+   }
+  }
+ },
+ "sod_hcxy_region_m1": {
+  "FRR": 0.08909090909090907,
+  "FAR": 0.00696969696969694,
+  "EER": 0.022575757575757537,
+  "kstar": 0.4,
+  "kmin": -1,
+  "kmax": 2,
+  "MLP_EER": 0.0186363636363636,
+  "LGB_EER": 0.029621212121212076,
+  "attack_k3": {
+   "AP": "3",
+   "LightGBM": "100",
+   "MLP": "13"
+  },
+  "other": {
+   "FRR": {
+    "AP-Certified (hybrid)": 0.0891,
+    "AP-Certified (one-sided)": 0.07,
+    "AP-Certified (symmetric)": 0.0891,
+    "LightGBM": 0.0464,
+    "MLP": 0.0741,
+    "kNN": 0.065
+   },
+   "FAR": {
+    "AP-Certified (hybrid)": 0.007,
+    "AP-Certified (one-sided)": 0.0055,
+    "AP-Certified (symmetric)": 0.0074,
+    "LightGBM": 0.0218,
+    "MLP": 0.0039,
+    "kNN": 0.0197
+   },
+   "EER": {
+    "AP-Certified (hybrid)": 0.0226,
+    "AP-Certified (one-sided)": 0.0151,
+    "AP-Certified (symmetric)": 0.0226,
+    "LightGBM": 0.0296,
+    "MLP": 0.0186,
+    "kNN": 0.03
+   },
+   "kstar": {
+    "AP-Certified (hybrid)": 0.4,
+    "AP-Certified (one-sided)": 0.0,
+    "AP-Certified (symmetric)": 0.2,
+    "LightGBM": NaN,
+    "MLP": NaN,
+    "kNN": NaN
+   }
+  }
+ },
+ "sod_hcxy_region_m3": {
+  "FRR": 0.06818181818181812,
+  "FAR": 0.00707070707070704,
+  "EER": 0.017676767676767617,
+  "kstar": 0.2,
+  "kmin": -1,
+  "kmax": 3,
+  "MLP_EER": NaN,
+  "LGB_EER": NaN,
+  "attack_k3": {
+   "AP": "--",
+   "LightGBM": "--",
+   "MLP": "--"
+  },
+  "other": {
+   "FRR": {
+    "AP-Certified (hybrid)": 0.0682,
+    "AP-Certified (one-sided)": 0.0788,
+    "AP-Certified (symmetric)": 0.0697
+   },
+   "FAR": {
+    "AP-Certified (hybrid)": 0.0071,
+    "AP-Certified (one-sided)": 0.0045,
+    "AP-Certified (symmetric)": 0.0076
+   },
+   "EER": {
+    "AP-Certified (hybrid)": 0.0177,
+    "AP-Certified (one-sided)": 0.0179,
+    "AP-Certified (symmetric)": 0.0177
+   },
+   "kstar": {
+    "AP-Certified (hybrid)": 0.2,
+    "AP-Certified (one-sided)": 1.2,
+    "AP-Certified (symmetric)": 0.4
+   }
+  }
+ },
+ "sod_hcxy_region_m5": {
+  "FRR": 0.0704545454545454,
+  "FAR": 0.0037878787878787403,
+  "EER": 0.01477272727272722,
+  "kstar": 1.0,
+  "kmin": 0,
+  "kmax": 2,
+  "MLP_EER": NaN,
+  "LGB_EER": NaN,
+  "attack_k3": {
+   "AP": "--",
+   "LightGBM": "--",
+   "MLP": "--"
+  },
+  "other": {
+   "FRR": {
+    "AP-Certified (hybrid)": 0.0705,
+    "AP-Certified (one-sided)": 0.075,
+    "AP-Certified (symmetric)": 0.0705
+   },
+   "FAR": {
+    "AP-Certified (hybrid)": 0.0038,
+    "AP-Certified (one-sided)": 0.0038,
+    "AP-Certified (symmetric)": 0.0038
+   },
+   "EER": {
+    "AP-Certified (hybrid)": 0.0148,
+    "AP-Certified (one-sided)": 0.017,
+    "AP-Certified (symmetric)": 0.0148
+   },
+   "kstar": {
+    "AP-Certified (hybrid)": 1.0,
+    "AP-Certified (one-sided)": 0.8,
+    "AP-Certified (symmetric)": 0.8
+   }
+  }
+ },
+ "tampere_floor_m1": {
+  "FRR": 0.05200998261190244,
+  "FAR": 0.14171613005667266,
+  "EER": 0.0754770542944734,
+  "kstar": -1.0,
+  "kmin": -1,
+  "kmax": -1,
+  "MLP_EER": 0.030468450305668797,
+  "LGB_EER": 0.0380416299423018,
+  "attack_k3": {
+   "AP": "45",
+   "LightGBM": "76",
+   "MLP": "34"
+  },
+  "other": {
+   "FRR": {
+    "AP-Certified (hybrid)": 0.052,
+    "AP-Certified (one-sided)": 0.0502,
+    "AP-Certified (symmetric)": 0.0512,
+    "LightGBM": 0.049,
+    "MLP": 0.0495,
+    "kNN": 0.0456
+   },
+   "FAR": {
+    "AP-Certified (hybrid)": 0.1417,
+    "AP-Certified (one-sided)": 0.1392,
+    "AP-Certified (symmetric)": 0.111,
+    "LightGBM": 0.0284,
+    "MLP": 0.0234,
+    "kNN": 0.1005
+   },
+   "EER": {
+    "AP-Certified (hybrid)": 0.0755,
+    "AP-Certified (one-sided)": 0.0811,
+    "AP-Certified (symmetric)": 0.0746,
+    "LightGBM": 0.038,
+    "MLP": 0.0305,
+    "kNN": 0.0727
+   },
+   "kstar": {
+    "AP-Certified (hybrid)": -1.0,
+    "AP-Certified (one-sided)": -1.0,
+    "AP-Certified (symmetric)": -1.0,
+    "LightGBM": NaN,
+    "MLP": NaN,
+    "kNN": NaN
+   }
+  }
+ },
+ "mall1_floor_m1": {
+  "FRR": 0.048291276143396664,
+  "FAR": 0.0389818653803357,
+  "EER": 0.04265277315497666,
+  "kstar": -1.0,
+  "kmin": -1,
+  "kmax": -1,
+  "MLP_EER": 0.025091251991438156,
+  "LGB_EER": 0.021338121259839738,
+  "attack_k3": {
+   "AP": "15",
+   "LightGBM": "78",
+   "MLP": "41"
+  },
+  "other": {
+   "FRR": {
+    "AP-Certified (hybrid)": 0.0483,
+    "AP-Certified (one-sided)": 0.0524,
+    "AP-Certified (symmetric)": 0.0488,
+    "LightGBM": 0.0457,
+    "MLP": 0.0502,
+    "kNN": 0.05
+   },
+   "FAR": {
+    "AP-Certified (hybrid)": 0.039,
+    "AP-Certified (one-sided)": 0.0732,
+    "AP-Certified (symmetric)": 0.0388,
+    "LightGBM": 0.0095,
+    "MLP": 0.0142,
+    "kNN": 0.0845
+   },
+   "EER": {
+    "AP-Certified (hybrid)": 0.0427,
+    "AP-Certified (one-sided)": 0.0578,
+    "AP-Certified (symmetric)": 0.0427,
+    "LightGBM": 0.0213,
+    "MLP": 0.0251,
+    "kNN": 0.0727
+   },
+   "kstar": {
+    "AP-Certified (hybrid)": -1.0,
+    "AP-Certified (one-sided)": -1.0,
+    "AP-Certified (symmetric)": -1.0,
+    "LightGBM": NaN,
+    "MLP": NaN,
+    "kNN": NaN
+   }
+  }
+ },
+ "mall2_floor_m1": {
+  "FRR": 0.047985259098449085,
+  "FAR": 0.021075311413678056,
+  "EER": 0.03131783734177928,
+  "kstar": -1.0,
+  "kmin": -1,
+  "kmax": -1,
+  "MLP_EER": 0.00498576278672022,
+  "LGB_EER": 0.01756626819938648,
+  "attack_k3": {
+   "AP": "10",
+   "LightGBM": "86",
+   "MLP": "27"
+  },
+  "other": {
+   "FRR": {
+    "AP-Certified (hybrid)": 0.048,
+    "AP-Certified (one-sided)": 0.0498,
+    "AP-Certified (symmetric)": 0.0483,
+    "LightGBM": 0.0489,
+    "MLP": 0.0486,
+    "kNN": 0.049
+   },
+   "FAR": {
+    "AP-Certified (hybrid)": 0.0211,
+    "AP-Certified (one-sided)": 0.0377,
+    "AP-Certified (symmetric)": 0.0183,
+    "LightGBM": 0.0061,
+    "MLP": 0.0011,
+    "kNN": 0.0098
+   },
+   "EER": {
+    "AP-Certified (hybrid)": 0.0313,
+    "AP-Certified (one-sided)": 0.0439,
+    "AP-Certified (symmetric)": 0.0312,
+    "LightGBM": 0.0176,
+    "MLP": 0.005,
+    "kNN": 0.0241
+   },
+   "kstar": {
+    "AP-Certified (hybrid)": -1.0,
+    "AP-Certified (one-sided)": -1.0,
+    "AP-Certified (symmetric)": -1.0,
+    "LightGBM": NaN,
+    "MLP": NaN,
+    "kNN": NaN
+   }
+  }
+ }
+}

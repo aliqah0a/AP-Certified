@@ -1,0 +1,22 @@
+task,model,k,success,certified
+mall2_floor,AP-Certified (hybrid),0,0.01,0.01
+mall2_floor,AP-Certified (hybrid),1,0.03,0.024732554895196292
+mall2_floor,AP-Certified (hybrid),2,0.05,0.05459883234279443
+mall2_floor,AP-Certified (hybrid),3,0.1,0.10919766468558889
+mall2_floor,AP-Certified (hybrid),4,0.24,0.2524592715043648
+mall2_floor,AP-Certified (hybrid),5,0.43,0.46692438129475744
+mall2_floor,AP-Certified (hybrid),6,0.98,0.9938487625895149
+mall2_floor,LightGBM,0,0.01,
+mall2_floor,LightGBM,1,0.04,
+mall2_floor,LightGBM,2,0.43,
+mall2_floor,LightGBM,3,0.86,
+mall2_floor,LightGBM,4,0.98,
+mall2_floor,LightGBM,5,1.0,
+mall2_floor,LightGBM,6,1.0,
+mall2_floor,MLP,0,0.0,
+mall2_floor,MLP,1,0.01,
+mall2_floor,MLP,2,0.13,
+mall2_floor,MLP,3,0.27,
+mall2_floor,MLP,4,0.54,
+mall2_floor,MLP,5,0.7,
+mall2_floor,MLP,6,0.8,

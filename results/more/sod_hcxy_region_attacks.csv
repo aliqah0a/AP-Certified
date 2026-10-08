@@ -1,0 +1,22 @@
+task,model,k,success,certified
+sod_hcxy_region,AP-Certified (hybrid),0,0.03,0.03
+sod_hcxy_region,AP-Certified (hybrid),1,0.03,0.03
+sod_hcxy_region,AP-Certified (hybrid),2,0.03,0.03
+sod_hcxy_region,AP-Certified (hybrid),3,0.03,0.0347294532125372
+sod_hcxy_region,AP-Certified (hybrid),4,0.05,0.08418835963761159
+sod_hcxy_region,AP-Certified (hybrid),5,0.09,0.13391781285014875
+sod_hcxy_region,AP-Certified (hybrid),6,0.18,0.21864726606268595
+sod_hcxy_region,LightGBM,0,0.1,
+sod_hcxy_region,LightGBM,1,0.93,
+sod_hcxy_region,LightGBM,2,1.0,
+sod_hcxy_region,LightGBM,3,1.0,
+sod_hcxy_region,LightGBM,4,1.0,
+sod_hcxy_region,LightGBM,5,1.0,
+sod_hcxy_region,LightGBM,6,1.0,
+sod_hcxy_region,MLP,0,0.0,
+sod_hcxy_region,MLP,1,0.03,
+sod_hcxy_region,MLP,2,0.07,
+sod_hcxy_region,MLP,3,0.13,
+sod_hcxy_region,MLP,4,0.25,
+sod_hcxy_region,MLP,5,0.46,
+sod_hcxy_region,MLP,6,0.57,

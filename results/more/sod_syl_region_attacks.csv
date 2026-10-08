@@ -1,0 +1,22 @@
+task,model,k,success,certified
+sod_syl_region,AP-Certified (hybrid),0,0.01,0.01
+sod_syl_region,AP-Certified (hybrid),1,0.03,0.02563109701044924
+sod_syl_region,AP-Certified (hybrid),2,0.05,0.05
+sod_syl_region,AP-Certified (hybrid),3,0.05,0.06031554850522461
+sod_syl_region,AP-Certified (hybrid),4,0.06,0.12157774252612308
+sod_syl_region,AP-Certified (hybrid),5,0.12,0.18828887126306157
+sod_syl_region,AP-Certified (hybrid),6,0.24,0.2868932910313477
+sod_syl_region,LightGBM,0,0.03,
+sod_syl_region,LightGBM,1,0.45,
+sod_syl_region,LightGBM,2,0.88,
+sod_syl_region,LightGBM,3,0.99,
+sod_syl_region,LightGBM,4,1.0,
+sod_syl_region,LightGBM,5,1.0,
+sod_syl_region,LightGBM,6,1.0,
+sod_syl_region,MLP,0,0.05,
+sod_syl_region,MLP,1,0.05,
+sod_syl_region,MLP,2,0.08,
+sod_syl_region,MLP,3,0.12,
+sod_syl_region,MLP,4,0.16,
+sod_syl_region,MLP,5,0.28,
+sod_syl_region,MLP,6,0.38,

@@ -1,0 +1,22 @@
+task,model,k,success,certified
+tampere_floor,AP-Certified (hybrid),0,0.14,0.16146953312099083
+tampere_floor,AP-Certified (hybrid),1,0.28,0.3241167426751349
+tampere_floor,AP-Certified (hybrid),2,0.36,0.4612741078556155
+tampere_floor,AP-Certified (hybrid),3,0.45,0.579901006157087
+tampere_floor,AP-Certified (hybrid),4,0.62,0.767548215711231
+tampere_floor,AP-Certified (hybrid),5,0.71,0.9201954252653752
+tampere_floor,AP-Certified (hybrid),6,0.8,1.0
+tampere_floor,LightGBM,0,0.01,
+tampere_floor,LightGBM,1,0.19,
+tampere_floor,LightGBM,2,0.58,
+tampere_floor,LightGBM,3,0.76,
+tampere_floor,LightGBM,4,0.87,
+tampere_floor,LightGBM,5,0.91,
+tampere_floor,LightGBM,6,0.93,
+tampere_floor,MLP,0,0.01,
+tampere_floor,MLP,1,0.11,
+tampere_floor,MLP,2,0.23,
+tampere_floor,MLP,3,0.34,
+tampere_floor,MLP,4,0.48,
+tampere_floor,MLP,5,0.58,
+tampere_floor,MLP,6,0.61,
