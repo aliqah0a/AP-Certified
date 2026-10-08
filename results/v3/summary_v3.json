@@ -1,0 +1,548 @@
+{
+ "online_m1": {
+  "FRR_weighted": {
+   "online": 0.0506,
+   "online+floor": 0.1108,
+   "online+floor+retrain": 0.0579,
+   "static": 0.2799
+  },
+  "months_FRR_gt5": {
+   "online": 14,
+   "online+floor": 22,
+   "online+floor+retrain": 19,
+   "static": 21
+  },
+  "FAR_mean": {
+   "online": 0.0059,
+   "online+floor": 0.0013,
+   "online+floor+retrain": 0.0007,
+   "static": 0.0001
+  },
+  "cert_mean": {
+   "online": 0.021,
+   "online+floor": 0.0071,
+   "online+floor+retrain": 0.0029,
+   "static": 0.001
+  },
+  "months_cert_gt1": {
+   "online": 15,
+   "online+floor": 9,
+   "online+floor+retrain": 2,
+   "static": 0
+  },
+  "bind_mean": {
+   "online": 0.0,
+   "online+floor": 0.0642,
+   "online+floor+retrain": 0.0061,
+   "static": 0.0
+  },
+  "meta": {
+   "m": 1,
+   "eta": 0.05,
+   "k0": 1,
+   "win": 500,
+   "alarm_rate": 0.1,
+   "G": 10,
+   "theta": 0.6,
+   "power": 1.0,
+   "c": 6.0,
+   "tau_static": 6.0330783043032685,
+   "retrains": [
+    [
+     11,
+     849
+    ],
+    [
+     12,
+     74
+    ],
+    [
+     17,
+     1335
+    ]
+   ]
+  }
+ },
+ "online_m3": {
+  "FRR_weighted": {
+   "online": 0.0519,
+   "online+floor": 0.2606,
+   "online+floor+retrain": 0.0541,
+   "static": 0.4084
+  },
+  "months_FRR_gt5": {
+   "online": 14,
+   "online+floor": 20,
+   "online+floor+retrain": 13,
+   "static": 17
+  },
+  "FAR_mean": {
+   "online": 0.0206,
+   "online+floor": 0.0007,
+   "online+floor+retrain": 0.0001,
+   "static": 0.0
+  },
+  "cert_mean": {
+   "online": 0.0644,
+   "online+floor": 0.0068,
+   "online+floor+retrain": 0.0008,
+   "static": 0.0012
+  },
+  "months_cert_gt1": {
+   "online": 15,
+   "online+floor": 11,
+   "online+floor+retrain": 1,
+   "static": 0
+  },
+  "bind_mean": {
+   "online": 0.0,
+   "online+floor": 0.2276,
+   "online+floor+retrain": 0.004,
+   "static": 0.0
+  },
+  "meta": {
+   "m": 3,
+   "eta": 0.05,
+   "k0": 1,
+   "win": 500,
+   "alarm_rate": 0.1,
+   "G": 10,
+   "theta": 0.6,
+   "power": 1.0,
+   "c": Infinity,
+   "tau_static": 7.594100699308535,
+   "retrains": [
+    [
+     11,
+     397
+    ],
+    [
+     12,
+     573
+    ]
+   ]
+  }
+ },
+ "cascade": [
+  {
+   "m": 1,
+   "model": "cascade-summary",
+   "k": NaN,
+   "attack": NaN,
+   "certified": NaN,
+   "FRR": 0.0295,
+   "FAR": 0.0,
+   "kstar": 3.0,
+   "kstar_single": 4.0
+  },
+  {
+   "m": 3,
+   "model": "cascade-summary",
+   "k": NaN,
+   "attack": NaN,
+   "certified": NaN,
+   "FRR": 0.0229,
+   "FAR": 0.0,
+   "kstar": 3.0,
+   "kstar_single": 4.0
+  }
+ ],
+ "cascade_attack": [
+  {
+   "m": 1,
+   "model": "AP-Certified alone",
+   "k": 0.0,
+   "attack": 0.0,
+   "certified": 0.0,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 1,
+   "model": "AP-Certified alone",
+   "k": 1.0,
+   "attack": 0.0,
+   "certified": 0.0,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 1,
+   "model": "AP-Certified alone",
+   "k": 2.0,
+   "attack": 0.0,
+   "certified": 0.0002,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 1,
+   "model": "AP-Certified alone",
+   "k": 3.0,
+   "attack": 0.0,
+   "certified": 0.0008,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 1,
+   "model": "AP-Certified alone",
+   "k": 4.0,
+   "attack": 0.005,
+   "certified": 0.0055,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 1,
+   "model": "AP-Certified alone",
+   "k": 5.0,
+   "attack": 0.02,
+   "certified": 0.025,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 1,
+   "model": "AP-Certified alone",
+   "k": 6.0,
+   "attack": 0.08,
+   "certified": 0.1056,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 1,
+   "model": "AP-Certified alone",
+   "k": 7.0,
+   "attack": 0.35,
+   "certified": 0.4012,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 1,
+   "model": "AP-Certified alone",
+   "k": 8.0,
+   "attack": 0.995,
+   "certified": 0.9895,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 1,
+   "model": "cascade",
+   "k": 0.0,
+   "attack": 0.0,
+   "certified": 0.0,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 1,
+   "model": "cascade",
+   "k": 1.0,
+   "attack": 0.0,
+   "certified": 0.0,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 1,
+   "model": "cascade",
+   "k": 2.0,
+   "attack": 0.0,
+   "certified": 0.0005,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 1,
+   "model": "cascade",
+   "k": 3.0,
+   "attack": 0.005,
+   "certified": 0.0023,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 1,
+   "model": "cascade",
+   "k": 4.0,
+   "attack": 0.015,
+   "certified": 0.0143,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 1,
+   "model": "cascade",
+   "k": 5.0,
+   "attack": 0.035,
+   "certified": 0.0561,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 1,
+   "model": "cascade",
+   "k": 6.0,
+   "attack": 0.165,
+   "certified": 0.2396,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 1,
+   "model": "cascade",
+   "k": 7.0,
+   "attack": 0.57,
+   "certified": 0.7394,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 1,
+   "model": "cascade",
+   "k": 8.0,
+   "attack": 0.85,
+   "certified": 1.0,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 3,
+   "model": "AP-Certified alone",
+   "k": 0.0,
+   "attack": 0.0,
+   "certified": 0.0,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 3,
+   "model": "AP-Certified alone",
+   "k": 1.0,
+   "attack": 0.0,
+   "certified": 0.0,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 3,
+   "model": "AP-Certified alone",
+   "k": 2.0,
+   "attack": 0.0,
+   "certified": 0.0006,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 3,
+   "model": "AP-Certified alone",
+   "k": 3.0,
+   "attack": 0.005,
+   "certified": 0.0021,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 3,
+   "model": "AP-Certified alone",
+   "k": 4.0,
+   "attack": 0.01,
+   "certified": 0.0091,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 3,
+   "model": "AP-Certified alone",
+   "k": 5.0,
+   "attack": 0.05,
+   "certified": 0.0413,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 3,
+   "model": "AP-Certified alone",
+   "k": 6.0,
+   "attack": 0.16,
+   "certified": 0.1747,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 3,
+   "model": "AP-Certified alone",
+   "k": 7.0,
+   "attack": 0.565,
+   "certified": 0.5924,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 3,
+   "model": "AP-Certified alone",
+   "k": 8.0,
+   "attack": 1.0,
+   "certified": 1.0,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 3,
+   "model": "cascade",
+   "k": 0.0,
+   "attack": 0.0,
+   "certified": 0.0,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 3,
+   "model": "cascade",
+   "k": 1.0,
+   "attack": 0.0,
+   "certified": 0.0,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 3,
+   "model": "cascade",
+   "k": 2.0,
+   "attack": 0.0,
+   "certified": 0.0012,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 3,
+   "model": "cascade",
+   "k": 3.0,
+   "attack": 0.0,
+   "certified": 0.0027,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 3,
+   "model": "cascade",
+   "k": 4.0,
+   "attack": 0.01,
+   "certified": 0.0149,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 3,
+   "model": "cascade",
+   "k": 5.0,
+   "attack": 0.055,
+   "certified": 0.0634,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 3,
+   "model": "cascade",
+   "k": 6.0,
+   "attack": 0.16,
+   "certified": 0.2696,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 3,
+   "model": "cascade",
+   "k": 7.0,
+   "attack": 0.59,
+   "certified": 0.8502,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  },
+  {
+   "m": 3,
+   "model": "cascade",
+   "k": 8.0,
+   "attack": 0.84,
+   "certified": 1.0,
+   "FRR": NaN,
+   "FAR": NaN,
+   "kstar": NaN,
+   "kstar_single": NaN
+  }
+ ]
+}
