@@ -1,0 +1,362 @@
+{
+ "uji|kNN|deployment": {
+  "EER": 0.0021133093525179504,
+  "FRR": 0.04892086330935248,
+  "FAR": 0.0,
+  "kstar": NaN
+ },
+ "uji|LightGBM|deployment": {
+  "EER": 0.0018884892086330502,
+  "FRR": 0.04999999999999996,
+  "FAR": 0.0,
+  "kstar": NaN
+ },
+ "uji|MLP|deployment": {
+  "EER": 0.0,
+  "FRR": 0.046223021582733795,
+  "FAR": 0.0,
+  "kstar": NaN
+ },
+ "uji|FPA-style symmetric|deployment": {
+  "EER": 0.00112410071942444,
+  "FRR": 0.049280575539568286,
+  "FAR": 0.0,
+  "kstar": 4.0
+ },
+ "uji|AP-Certified (random)|deployment": {
+  "EER": 0.00373201438848917,
+  "FRR": 0.04334532374100715,
+  "FAR": 0.00044964028776975,
+  "kstar": 1.9
+ },
+ "uji|AP-Certified (spread)|deployment": {
+  "EER": 0.0018435251798560898,
+  "FRR": 0.048561151079136645,
+  "FAR": 0.00035971223021579997,
+  "kstar": 3.2
+ },
+ "uji|AP-Certified (spread)|source": {
+  "EER": 0.0018435251798560796,
+  "FRR": 0.10287769784172655,
+  "FAR": 0.0,
+  "kstar": 4.0
+ },
+ "uji|mondrian_FRR_mean": {
+  "0": 0.04701492537313433,
+  "1": 0.051948051948051945,
+  "2": 0.04776119402985075
+ },
+ "uji|mondrian_FRR_max": {
+  "0": 0.06716417910447761,
+  "1": 0.09090909090909091,
+  "2": 0.07462686567164178
+ },
+ "attack|UJIIndoorLoc, building zones": {
+  "AP-Certified": {
+   "0": 0.0,
+   "1": 0.0,
+   "2": 0.0,
+   "3": 0.005,
+   "4": 0.01,
+   "5": 0.065,
+   "6": 0.875
+  },
+  "LightGBM": {
+   "0": 0.0,
+   "1": 0.01,
+   "2": 0.105,
+   "3": 0.325,
+   "4": 0.4,
+   "5": 0.495,
+   "6": 0.6
+  },
+  "MLP": {
+   "0": 0.0,
+   "1": 0.0,
+   "2": 0.005,
+   "3": 0.11,
+   "4": 0.355,
+   "5": 0.64,
+   "6": 0.76
+  },
+  "kNN": {
+   "0": 0.0,
+   "1": 0.0,
+   "2": 0.0,
+   "3": 0.0,
+   "4": 0.0,
+   "5": 0.0,
+   "6": 0.0
+  }
+ },
+ "attack_cert|UJIIndoorLoc, building zones": {
+  "0": 0.0,
+  "1": 0.0,
+  "2": 0.0,
+  "3": 0.0043,
+  "4": 0.0093,
+  "5": 0.0708,
+  "6": 0.8786
+ },
+ "attack|Long-term, floor zones": {
+  "AP-Certified": {
+   "0": 0.0,
+   "1": 0.005,
+   "2": 0.005,
+   "3": 0.005,
+   "4": 0.005,
+   "5": 0.07,
+   "6": 0.235
+  },
+  "LightGBM": {
+   "0": 0.0,
+   "1": 0.0,
+   "2": 0.03,
+   "3": 0.13,
+   "4": 0.225,
+   "5": 0.35,
+   "6": 0.49
+  },
+  "MLP": {
+   "0": 0.0,
+   "1": 0.0,
+   "2": 0.005,
+   "3": 0.025,
+   "4": 0.255,
+   "5": 0.61,
+   "6": 0.87
+  },
+  "kNN": {
+   "0": 0.0,
+   "1": 0.0,
+   "2": 0.0,
+   "3": 0.0,
+   "4": 0.0,
+   "5": 0.0,
+   "6": 0.0
+  }
+ },
+ "attack_cert|Long-term, floor zones": {
+  "0": 0.0,
+  "1": 0.002,
+  "2": 0.005,
+  "3": 0.005,
+  "4": 0.013,
+  "5": 0.0609,
+  "6": 0.2486
+ },
+ "long|monthly": [
+  {
+   "model": "AP-Certified (random)",
+   "calib": "recalibrated",
+   "FRR": 0.0464,
+   "FAR": 0.0097,
+   "EER": 0.0142,
+   "kstar": -0.08
+  },
+  {
+   "model": "AP-Certified (spread)",
+   "calib": "recalibrated",
+   "FRR": 0.0479,
+   "FAR": 0.0127,
+   "EER": 0.0146,
+   "kstar": 0.32
+  },
+  {
+   "model": "AP-Certified (spread)",
+   "calib": "retrained",
+   "FRR": 0.0521,
+   "FAR": 0.0014,
+   "EER": 0.0048,
+   "kstar": 1.5417
+  },
+  {
+   "model": "AP-Certified (spread)",
+   "calib": "static",
+   "FRR": 0.2853,
+   "FAR": 0.0003,
+   "EER": 0.0146,
+   "kstar": 1.68
+  },
+  {
+   "model": "LightGBM",
+   "calib": "recalibrated",
+   "FRR": 0.0724,
+   "FAR": 0.2836,
+   "EER": 0.2453,
+   "kstar": NaN
+  },
+  {
+   "model": "LightGBM",
+   "calib": "static",
+   "FRR": 0.627,
+   "FAR": 0.0,
+   "EER": 0.2453,
+   "kstar": NaN
+  },
+  {
+   "model": "MLP",
+   "calib": "recalibrated",
+   "FRR": 0.0429,
+   "FAR": 0.0,
+   "EER": 0.0007,
+   "kstar": NaN
+  },
+  {
+   "model": "MLP",
+   "calib": "static",
+   "FRR": 0.3906,
+   "FAR": 0.0,
+   "EER": 0.0007,
+   "kstar": NaN
+  },
+  {
+   "model": "kNN",
+   "calib": "recalibrated",
+   "FRR": 0.0446,
+   "FAR": 0.0,
+   "EER": 0.0005,
+   "kstar": NaN
+  },
+  {
+   "model": "kNN",
+   "calib": "static",
+   "FRR": 0.0586,
+   "FAR": 0.0,
+   "EER": 0.0005,
+   "kstar": NaN
+  }
+ ],
+ "long|months_FRR_gt_5": {
+  "AP-Certified (random)|recalibrated": 6,
+  "AP-Certified (spread)|recalibrated": 5,
+  "AP-Certified (spread)|retrained": 6,
+  "AP-Certified (spread)|static": 20,
+  "LightGBM|recalibrated": 10,
+  "LightGBM|static": 25,
+  "MLP|recalibrated": 4,
+  "MLP|static": 18,
+  "kNN|recalibrated": 7,
+  "kNN|static": 24
+ },
+ "long|month1": [
+  {
+   "month": 1,
+   "model": "AP-Certified (spread)",
+   "calib": "recalibrated",
+   "tau": 7.5652,
+   "FRR": 0.0168,
+   "FAR": 0.0,
+   "EER": 0.0003,
+   "kstar": 3.0,
+   "kstar_d2": 0.0,
+   "kstar_d4": -1.0,
+   "kstar_d6": -1.0
+  },
+  {
+   "month": 1,
+   "model": "AP-Certified (spread)",
+   "calib": "static",
+   "tau": 7.5109,
+   "FRR": 0.0183,
+   "FAR": 0.0,
+   "EER": 0.0003,
+   "kstar": 3.0,
+   "kstar_d2": NaN,
+   "kstar_d4": NaN,
+   "kstar_d6": NaN
+  },
+  {
+   "month": 1,
+   "model": "AP-Certified (random)",
+   "calib": "recalibrated",
+   "tau": 6.2204,
+   "FRR": 0.0163,
+   "FAR": 0.0,
+   "EER": 0.001,
+   "kstar": 2.0,
+   "kstar_d2": NaN,
+   "kstar_d4": NaN,
+   "kstar_d6": NaN
+  },
+  {
+   "month": 1,
+   "model": "kNN",
+   "calib": "recalibrated",
+   "tau": 1.0,
+   "FRR": 0.0432,
+   "FAR": 0.0,
+   "EER": 0.0003,
+   "kstar": NaN,
+   "kstar_d2": NaN,
+   "kstar_d4": NaN,
+   "kstar_d6": NaN
+  },
+  {
+   "month": 1,
+   "model": "kNN",
+   "calib": "static",
+   "tau": 1.0,
+   "FRR": 0.0528,
+   "FAR": 0.0,
+   "EER": 0.0003,
+   "kstar": NaN,
+   "kstar_d2": NaN,
+   "kstar_d4": NaN,
+   "kstar_d6": NaN
+  },
+  {
+   "month": 1,
+   "model": "LightGBM",
+   "calib": "recalibrated",
+   "tau": 1.0,
+   "FRR": 0.063,
+   "FAR": 0.0,
+   "EER": 0.0005,
+   "kstar": NaN,
+   "kstar_d2": NaN,
+   "kstar_d4": NaN,
+   "kstar_d6": NaN
+  },
+  {
+   "month": 1,
+   "model": "LightGBM",
+   "calib": "static",
+   "tau": 1.0,
+   "FRR": 0.063,
+   "FAR": 0.0,
+   "EER": 0.0005,
+   "kstar": NaN,
+   "kstar_d2": NaN,
+   "kstar_d4": NaN,
+   "kstar_d6": NaN
+  },
+  {
+   "month": 1,
+   "model": "MLP",
+   "calib": "recalibrated",
+   "tau": 0.9538,
+   "FRR": 0.0152,
+   "FAR": 0.0,
+   "EER": 0.0,
+   "kstar": NaN,
+   "kstar_d2": NaN,
+   "kstar_d4": NaN,
+   "kstar_d6": NaN
+  },
+  {
+   "month": 1,
+   "model": "MLP",
+   "calib": "static",
+   "tau": 0.9538,
+   "FRR": 0.0152,
+   "FAR": 0.0,
+   "EER": 0.0,
+   "kstar": NaN,
+   "kstar_d2": NaN,
+   "kstar_d4": NaN,
+   "kstar_d6": NaN
+  }
+ ],
+ "uji_floor|adjacent_FAR": 0.15273370350572998
+}
